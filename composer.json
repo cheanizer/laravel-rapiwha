@@ -1,0 +1,45 @@
+{
+    "name": "cheanizer/laravel-rapiwha",
+    "description": "Nuwira SMS API client library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adhi Setyawan",
+            "email": "stw.adhi@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.3",
+        "illuminate/support": "~5.8"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuwira\\LaraRapiWha\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nuwira\\LaraRapiWha\\Tests\\": "tests/"
+        }
+    },
+    "config":{
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cheanizer\\LaraRapiWha\\LaraRapiWhaServiceProvider"
+            ],
+            "aliases": {
+                "SMS": "Cheanizer\\LaraRapiWha\\Facade"
+            }
+        }
+    }
+}
