@@ -11,7 +11,7 @@ and optional add facades in facades section if you want user this library everyt
 
     'APIWHA' => Cheanizer\LaraRapiWha\Facade::class
    
-   dont forget to copy configuration filed using 
+don't forget to copy configuration file using 
    `php artisan vendor:publish`
 
 add parameters rapiwha account to your .env
