@@ -1,7 +1,7 @@
 
 # lararapiwha
 
-simple library to interact with rapiwha api whastapp endpoint.
+simple library to interact with rapiwha ([rapiwha.com](http://rapiwha.com/))  api whastapp endpoint.
 
 ### how to install
 
