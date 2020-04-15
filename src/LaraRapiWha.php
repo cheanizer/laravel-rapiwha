@@ -12,20 +12,18 @@ class LaraRapiWha
     {
         $this->parameters = $parameters;
         $this->client = new Client([
-            'base_uri' => $this->parameters['base_url'],
+            'base_uri' => $parameters['base_url'],
             'timeout' => 60
         ]);
     }
 
     public function send($to, $message)
     {
-        $response = $this->client->request('send_message.php',[
-            [
-                'query' => [
-                    'apikey' => $this->parameters['api_key'],
-                    'number' => $to,
-                    'text' => $message
-                ]
+        $response = $this->client->request('GET','send_message.php',[
+            'query' => [
+                'apikey' => $this->parameters['api_key'],
+                'number' => $to,
+                'text' => $message
             ]
         ]);
 

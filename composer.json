@@ -1,6 +1,6 @@
 {
     "name": "cheanizer/laravel-rapiwha",
-    "description": "Nuwira SMS API client library",
+    "description": "Rapiwha class wrapper for laravel",
     "type": "library",
     "authors": [
         {

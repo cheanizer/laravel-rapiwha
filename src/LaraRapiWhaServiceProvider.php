@@ -32,7 +32,7 @@ class LaraRapiWhaServiceProvider extends ServiceProvider
         $this->app->bind('cheanizer-lararapiwha', function () {
             $parameters = [
                 'base_url' => Config::get('lararapiwha.base_url'),
-                'apikey' => Config::get('lararapiwha.apikey')
+                'api_key' => Config::get('lararapiwha.api_key')
             ];
             $obj = new LaraRapiWha($parameters);
 
