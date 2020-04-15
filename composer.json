@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Nuwira\\LaraRapiWha\\": "src/"
+            "Cheanizer\\LaraRapiWha\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nuwira\\LaraRapiWha\\Tests\\": "tests/"
+            "Chaenizer\\LaraRapiWha\\Tests\\": "tests/"
         }
     },
     "config":{
