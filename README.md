@@ -7,7 +7,7 @@ simple library to interact with rapiwha ([rapiwha.com](http://rapiwha.com/))  ap
 
 ` composer require cheanizer/laravel-rapiwha`
 
-  
+note : for Laravel 5.x please use release 1.0
 
 add in the provider section in your `config/app.php`
 
